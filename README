@@ -1,0 +1,11 @@
+Different elements in the sequences are delimited by HTML-style tag pairs, e.g., <codseq> </codseq> encloses a coding sequence. Tag definitions are given below:
+=====================================================================
+-<bbpref>:Biobrick prefix sequence
+-<bbsuf>:Biobrick suffix sequence
+-<prorbs>:Promoter and RBS sequence
+-<codseq>:Coding sequence
+-<term>:Terminator sequence
+-<ecor1>:EcoRI recognition site
+-<xba1>:XbaI recognition site
+-<pst1>:PstI recognition site
+-<spe1>:SpeI recognition site
