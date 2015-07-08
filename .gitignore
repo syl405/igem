@@ -1,3 +1,2 @@
-#Exclude MATLAB scripts
-*.m
+#Exclude temporary files
 *~
