@@ -1,0 +1,128 @@
+  .container {
+  text-align: right;
+	background: #ADEBFF;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  z-index: 100;
+}
+.logo {
+	width: 150px;
+	height: 150px;
+}
+.title {
+	font-family: "Comic Sans MS", Helvetica;
+	color: #5C7A99;
+  float: left;
+  padding-left: 20px;
+  font-size: 24px;
+  margin-top: 7px;
+  letter-spacing: -1px;
+  
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 0px 17px 0px;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+ul li a {
+	text-decoration: none;
+	color: #5C7A99;
+	font-family: Helvetica, Arial, sans-serif;
+}
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 30px;
+  cursor: pointer;
+  width: 70px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+ul li:hover {
+  background: #70DBFF;
+  color: #000000;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #70DBFF; 
+  display: block; 
+  /*text-shadow: 0 -1px 0 #000;*/
+}
+ul li ul li:hover { background: #85E0FF; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+.Gallery {
+  width:100%;
+  position: relative;
+  height: 550px;
+  left:-2px;
+  top:40px;
+}
+.Gallery img {
+  width: 100%;
+  height: 550px;
+  left:-2px;
+  top:40px;
+
+}
+.rectangle {
+  text-align: center;
+  display: block;
+  margin-left: 230px;
+  margin-right: auto;
+  width: 800px;
+  height: 1500px;
+  position: absolute;
+  top: 60px;
+  border-radius: 15px;
+  border: solid 0.4em;
+  border-color: white;
+  background: #5C7A99;
+  
+}
+.rectangle img {
+  width: 800px;
+  height:500px;
+}
+.rectangle h2 {
+  color: #1F5C99;
+}
+.rectangle p {
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+
+}
