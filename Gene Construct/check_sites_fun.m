@@ -10,6 +10,10 @@ res_sites.spel = 'ACTAGT';
 res_sites.spel_p = 'TGATCA';
 res_sites.pst1 = 'CTGCAG';
 res_sites.pst1_p = 'GACGTC';
+res_sites.eag1 = 'CGGCCG';
+res_sites.eag1_p = 'GCCGGC';
+res_sites.not1 = 'GCGGCCGC';
+res_sites.not1_p = 'CGCCGGCG';
 
 sites = fieldnames(res_sites);
 
