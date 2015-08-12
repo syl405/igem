@@ -1,2 +1,4 @@
-#Exclude temporary files
+#Exclude MATLAB temporary files
 *~
+#Exclude gedit temp files
+.DS_store
