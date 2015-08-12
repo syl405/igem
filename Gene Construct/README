@@ -1,5 +1,24 @@
-Different elements in the sequences are delimited by HTML-style tag pairs, e.g., <codseq> </codseq> encloses a coding sequence. Tag definitions are given below:
-=====================================================================
+================================================================================
+				DIRECTORY STRUCTURE
+================================================================================
+/raw sequences: raw sequences obtained from iGEM documentation or other bioinfo-
+rmatic databases
+
+/seqs_prefix_suffix_prom_term: sequences made into transcription cassettes with-
+ biobrick prefix and suffix, as well as promoter/rbs and terminator
+
+/orders_DO_NOT_EDIT_IN_PLACE: sequences with tags removed, exact version submit-
+ted to IDT for orders. !!!DO NOT EDIT IN PLACE, GENERATE NEW FILES FOR SUBSEQUE-
+NT ORDERS!!!
+
+/codes: MATLAB and Python code used to process sequences
+
+================================================================================
+				SEQUENCE ANNOTATION
+Different elements in the sequences are delimited by HTML-style tag pairs, e.g.,
+<codseq> </codseq> encloses a coding sequence. Tag definitions are given below:
+================================================================================
+
 -<bbpref>:Biobrick prefix sequence
 -<bbsuf>:Biobrick suffix sequence
 -<prorbs>:Promoter and RBS sequence
